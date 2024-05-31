@@ -283,7 +283,7 @@ strong{
   }
 
 .propósito-section {
-        background-color: #f8f8f8; /* Cor de fundo da seção */
+        background-color: #000000; /* Cor de fundo da seção */
         padding-top: 100px;
         padding-bottom: 100px;
     }
@@ -398,7 +398,7 @@ strong{
 
 
     body{
-        background-color: #9a9a1e;
+        background-color: #000000;
     }
 
     /* Estilo para a seção */
