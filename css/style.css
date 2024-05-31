@@ -19,7 +19,7 @@ html {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #567666;
+    background-color: #13879E;
     color: #fff;
     border: none;
     border-radius: 50%;
@@ -95,7 +95,7 @@ a {
 }
 
 .bg-dark-fundo{
-    background-color: #567666;
+    background-color: #13879E;
 }
 
    /* Estilize os submenus para que eles fiquem ocultos por padrão */
@@ -403,7 +403,7 @@ strong{
 
     /* Estilo para a seção */
     .section-6 {
-        background-color: #567666; /* Cor de fundo escura */
+        background-color: #13879E; /* Cor de fundo escura */
         color: #fff; /* Cor do texto */
         padding: 30px; /* Espaçamento interno */
         text-align: center; /* Alinhamento do conteúdo ao centro */
@@ -433,6 +433,7 @@ strong{
     text-align: center;
 }
 
+
 .col-md-6 img,
 .col-md-6 h3,
 .col-md-6 p {
@@ -445,7 +446,7 @@ strong{
 
 
 .social-bar {
-    background-color: #567666;
+    background-color: #13879E;
     display: flex;
     justify-content: center;
     align-items: center;
