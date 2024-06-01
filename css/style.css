@@ -1,21 +1,10 @@
-html {
-    scroll-behavior: smooth; /* Adiciona rolagem suave a todas as âncoras */
-    scroll-behavior: smooth; /* Para compatibilidade com navegadores mais antigos */
-}
-
-/* Define a velocidade da transição de rolagem */
+/* Rolagem suave */
 html {
     scroll-behavior: smooth;
-    scroll-behavior: smooth;
-    transition-duration: 1s; /* Ajuste o valor para controlar a velocidade da transição */
 }
 
-.header-inicio {
-    color: #ffff;
-}
-/* Estilo para o botão "Voltar ao Topo" */
+/* Botão "Voltar ao Topo" */
 #btnVoltarAoTopo {
-    
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -32,24 +21,21 @@ html {
     transition: background-color 0.3s, transform 0.3s;
 }
 
-
-
-
-/* Estilize seus links <a> com a fonte personalizada */
+/* Estilo de links */
 a {
     color: #ffff;
     text-decoration: none;
     background-color: transparent;
 }
 
-/* CSS personalizado para a imagem no carrossel */
+/* Estilo da imagem no carrossel */
 .imagem-menor {
     max-width: 400px;
     margin: 0 auto;
     display: block;
 }
 
-/* CSS personalizado para destacar o texto no carrossel */
+/* Estilo do texto em destaque */
 .destaque-texto {
     background-color: rgba(0, 0, 0, 0.7);
     display: flex;
@@ -72,7 +58,7 @@ a {
     line-height: 1.5;
 }
 
-/* Estilo para a nova seção */
+/* Seção personalizada */
 .custom-section {
     background-color: #333;
     color: #fff;
@@ -85,7 +71,7 @@ a {
     background-color: #1EDAFF;
 }
 
-/* Estilo para o texto estilizado */
+/* Texto estilizado */
 .styled-text {
     font-family: 'Arial', sans-serif;
     font-size: 20px;
@@ -94,12 +80,13 @@ a {
     margin-bottom: 20px;
 }
 
-.bg-dark-fundo{
+/* Fundo escuro */
+.bg-dark-fundo {
     background-color: #13879E;
 }
 
-   /* Estilize os submenus para que eles fiquem ocultos por padrão */
-   .submenu {
+/* Submenus */
+.submenu {
     display: none;
     position: absolute;
     background-color: #DEE4F0;
@@ -110,46 +97,48 @@ a {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
-.submenu li{
+.submenu li {
     display: block;
 }
+
 .submenu li a {
     text-decoration: none;
     transition: color 0.3s ease; 
 }
 
-.fixed-top{
+.fixed-top {
     background-color: #141414;
 }
 
-.navbar-nav .nav-link{
+.navbar-nav .nav-link {
     transition: color 0.3s ease; 
 }
 
 /* Efeito hover para os links da barra de navegação */
 .navbar-nav .nav-link:hover {
-    color: #5ea4ee; /* Cor do texto ao passar o mouse (azul) */
+    color: #5ea4ee;
 }
 
-/* Estilize o item "Perfil da Empresa" para que ele seja uma posição relativa */
+/* Submenu visível ao passar o mouse */
 .nav-item:hover .submenu,
 .nav-item.active .submenu {
     display: block;
 }
-.footer .color-black{
+
+.footer .color-black {
     color: #333;
     margin-top: 5px;
 }
 
 /* Estilos para o rodapé */
 .footer {
-    background-color: #fff; /* Cor de fundo do rodapé (pode ser personalizada) */
-    color: #333; /* Cor do texto do rodapé (pode ser personalizada) */
-    padding: 30px 0; /* Espaçamento interno superior e inferior */
+    background-color: #fff;
+    color: #333;
+    padding: 30px 0;
 }
 
 .footer h3 {
-    color: #333; /* Cor do título do rodapé (pode ser personalizada) */
+    color: #333;
 }
 
 .footer ul {
@@ -162,313 +151,208 @@ a {
 }
 
 .footer ul li a {
-    color: #333; /* Cor dos links no rodapé (pode ser personalizada) */
+    color: #333;
     text-decoration: none;
 }
 
 .footer ul li a:hover {
-    text-decoration: underline; /* Efeito de sublinhado ao passar o mouse sobre os links */
+    text-decoration: underline;
 }
 
-/* Estilo para as seções com imagem à esquerda */
+/* Seção com imagem à esquerda */
 .container-left-image {
-    background-color: #f8f8f8; /* Cor de fundo da seção */
-    padding: 40px; /* Espaçamento interno */
-    border: 1px solid #ccc; /* Borda */
-    border-radius: 5px; /* Cantos arredondados */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    background-color: #f8f8f8;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .container-left-image img {
-    max-width: 100%; /* Imagem responsiva */
+    max-width: 100%;
 }
 
-/* Estilo para as seções com imagem à direita */
+/* Seção com imagem à direita */
 .container-right-image {
-    background-color: #f8f8f8; /* Cor de fundo da seção */
-    padding: 40px; /* Espaçamento interno */
-    border: 1px solid #ccc; /* Borda */
-    border-radius: 5px; /* Cantos arredondados */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    background-color: #f8f8f8;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .container-right-image img {
-    max-width: 100%; /* Imagem responsiva */
+    max-width: 100%;
 }
 
-/* Estilo personalizado para a seção de valores */
+/* Seção de valores */
 .values-section {
-    background-color: #333; /* Cor de fundo */
-    color: #fff; /* Cor do texto */
-    padding: 30px; /* Espaçamento interno */
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
 }
 
-/* Estilo para o título */
 .values-title {
-    font-family: Arial, sans-serif; /* Fonte do título */
-    font-size: 24px; /* Tamanho do título */
-    margin-bottom: 20px; /* Espaçamento inferior do título */
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
 #bannerCarousel {
-    height: 1040px; /* Altura fixa para a seção do banner */
-    overflow: hidden; /* Ocultar conteúdo que exceder a altura fixa */
+    height: 1040px;
+    overflow: hidden;
 }
 
-/* Estilo para telas de tamanho médio (tablets, por exemplo) */
 @media (max-width: 768px) {
     #bannerCarousel {
-        height: 250px; /* Altura menor para tablets */
+        height: 250px;
     }
 }
 
-/* Estilos para a seção de fundo branco */
 .atividades-section {
     background-color: #f5f5f5;
     padding-top: 50px;
     padding-bottom: 50px;
-    color: #333; /* Cor do texto */
+    color: #333;
 }
 
-/* Estilos para o título "Nossas Atividades" */
 .atividades-section h2 {
-    font-size: 36px; /* Tamanho da fonte para o título */
-    color: #333; /* Cor do título */
-    text-align: center; /* Centralizar o título */
-    margin-bottom: 30px; /* Espaçamento inferior para o título */
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
-/* Estilos para a lista de atividades */
 .atividades-section ul {
-    list-style-type: none; /* Remover marcadores da lista */
-    padding-left: 0; /* Remover o recuo padrão da lista */
+    list-style-type: none;
+    padding-left: 0;
 }
 
-/* Estilos para os itens da lista */
 .atividades-section ul li {
-    margin-bottom: 30px; /* Espaçamento inferior para cada item da lista */
-    padding: 20px; /* Espaçamento interno para cada item */
-    border-radius: 8px; /* Borda arredondada para os blocos */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave para os blocos */
-    background-color: #fff; /* Cor de fundo dos blocos */
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
 }
 
-/* Estilos para os títulos de cada bloco */
 .atividades-section ul li strong {
     display: block;
-    font-size: 24px; /* Tamanho da fonte para os títulos */
-    margin-bottom: 10px; /* Espaçamento inferior para os títulos */
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 
-/* Cor preta para o texto dentro dos blocos de fundo branco */
 .atividades-section ul li p {
     color: #000;
 }
 
-strong{
+strong {
     color: #333;
 }
 
 .img-fluid {
     border-radius: 10px;
-    border: 2px solid rgba(0, 0, 0, 0.2); /* Adicione uma borda ofuscada */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Adicione uma sombra suave */
-    transition: all 0.3s ease-in-out; /* Adicione uma transição suave */
-  }
-  
-  /* Efeito hover para destacar a imagem */
-  .img-fluid:hover {
-    transform: scale(1.05); /* Aumenta um pouco o tamanho ao passar o mouse */
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); /* Aumenta a intensidade da sombra */
-  }
-
-.propósito-section {
-        background-color: #000000; /* Cor de fundo da seção */
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
-
-    .propósito-section h2 {
-        font-size: 36px; /* Tamanho da fonte para o título */
-        color: #333; /* Cor do título */
-    }
-
-    .propósito-section p {
-        font-size: 18px; /* Tamanho da fonte para o texto */
-        line-height: 1.5; /* Espaçamento entre linhas para melhor legibilidade */
-        color: #666; /* Cor do texto */
-    }
-
-.title-itemValores{
-    border-bottom: 5px solid #9a9a1e;
-    padding: 15px;
-    margin-bottom: 50px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
 }
 
-.value-card {
-    height: 300px; /* Defina a altura desejada em pixels */
+.img-fluid:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
 }
 
-.value-card h3 {
-    height: 50px; /* Altura do h3 dentro do value-card */
-}
-
-.value-card p {
-    height: 150px; /* Altura do p dentro do value-card */
-}
-
-/* Estilo para telas pequenas (celulares, por exemplo) */
-@media (max-width: 480px) {
-    #bannerCarousel {
-        height: 200px;/* Altura ainda menor para celulares */
-    }
-}
-
-
-/* Estilo para os valores */
-.values-list {
-    list-style: none; /* Remova os bullets da lista */
-    padding: 0; /* Remova o espaçamento interno da lista */
-}
-
-
-
-.carousel-inner {
-    height: 100%;
-}
-
-.carousel-inner img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-/* Estilo para cada item da lista */
-.values-list-item {
-    font-family: Georgia, serif; /* Fonte para os valores */
-    font-size: 18px; /* Tamanho do texto */
-    margin-bottom: 10px; /* Espaçamento inferior entre os itens */
-}
-
-/* Estilo para a imagem redonda */
-.rounded-image {
-    border-radius: 50%; /* Forma redonda */
-    width: 200px; /* Largura da imagem */
-    height: 200px; /* Altura da imagem */
-    margin: 0 auto 20px; /* Centralizar e adicionar margem inferior */
-    display: block; /* Para centralizar horizontalmente */
-}
-
-/* Estilo para a nova seção */
-.custom-section {
-    background-color: #333; /* Cor de fundo escura */
-    color: #fff; /* Cor do texto */
-    padding: 30px; /* Espaçamento interno */
-    text-align: center; /* Alinhamento do conteúdo ao centro */
-    transition: background-color 0.3s ease; /* Efeito de transição suave para a cor de fundo */
-}
-
-/* Efeito de hover para a seção */
-.custom-section:hover {
-    background-color: #555; /* Cor de fundo alterada ao passar o mouse */
-}
-
-/* Estilo para o texto estilizado */
-.styled-text {
-    font-family: 'Arial', sans-serif; /* Fonte do texto */
-    font-size: 20px; /* Tamanho do texto */
-    font-weight: bold; /* Negrito */
-    letter-spacing: 2px; /* Espaçamento entre letras */
-    margin-bottom: 20px; /* Espaçamento inferior */
-}
-
-/* Estilo para as seções que se movem */
-.scrollable-section {
-    transition: transform 0.3s ease; /* Transição suave para o movimento */
-}
-
-/* Aplicar um deslocamento vertical positivo para mover a seção para baixo */
-.scrollable-section.move-down {
-    transform: translateY(100px); /* Ajuste o valor conforme necessário para a quantidade desejada de deslocamento */
-}
-
-/* Aplicar um deslocamento vertical negativo para mover a seção para cima */
-.scrollable-section.move-up {
-    transform: translateY(-100px); /* Ajuste o valor conforme necessário para a quantidade desejada de deslocamento */
-}
-
-
-    body{
-        background-color: #000000;
-    }
-
-    /* Estilo para a seção */
-    .section-6 {
-        background-color: #13879E; /* Cor de fundo escura */
-        color: #fff; /* Cor do texto */
-        padding: 30px; /* Espaçamento interno */
-        text-align: center; /* Alinhamento do conteúdo ao centro */
-    }
-
-    /* Estilo para o título */
-    .section-6 h2 {
-        font-size: 24px; /* Tamanho do título */
-        margin-bottom: 20px; /* Espaçamento inferior do título */
-    }
-
-    /* Estilo para o texto */
-    .section-6 p {
-        font-size: 18px; /* Tamanho do texto */
-        line-height: 1.5; /* Espaçamento entre linhas */
-        margin-bottom: 20px; /* Espaçamento inferior do texto */
-    }
-
-
-
-
-
-.col-md-6 {
+/* Mídias sociais */
+.social-bar {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    background-color: #1EDAFF;
+    padding: 10px;
+    border-radius: 0 5px 5px 0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.social-bar .social-link {
+    display: block;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.social-bar .social-link:hover {
+    background-color: #13879E;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.mt-5 {
+    margin-top: 5rem;
+}
+
+.mb-5 {
+    margin-bottom: 5rem;
+}
+
+
+#quemSomos {
+    background-color: #13879E;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+#quemSomos h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 36px;
     text-align: center;
 }
 
+#quemSomos p {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
 
-.col-md-6 img,
-.col-md-6 h3,
-.col-md-6 p {
-    width: 100%;
-    max-width: 100%;
-    margin: 0 auto;
+#quemSomos p strong {
+    color: #ffffff;
 }
 
 
-
-
-.social-bar {
-    background-color: #13879E;
+.row {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60px;
-    }
-
-.social-bar a {
-    font-size: 26px;
-    text-decoration: none;
-    color: #fff;
-    margin: 0 10px;
-    padding: 5px;
-    border-radius: 10px;
-    border: 2px solid rgba(0, 0, 0, 0.2); /* Adicione uma borda ofuscada */
-   
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Adicione uma sombra suave */
-    transition: all 0.3s ease-in-out; /* Adicione uma transição suave */
-
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
 }
-  
-  /* Efeito hover para destacar a imagem */
-  .social-bar a:hover {
-    transform: scale(1.05); /* Aumenta um pouco o tamanho ao passar o mouse */
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); /* Aumenta a intensidade da sombra */
-  }
+
+.col-12 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+h2.text-center {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+p strong {
+    color: #13879E;
+}
