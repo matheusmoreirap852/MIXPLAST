@@ -93,7 +93,7 @@ a {
     color: #ffff;
     padding: 10px;
     margin-top: 30px;
-    transition: color 0.3s ease; 
+    transition: color 0.3s ease;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -103,7 +103,7 @@ a {
 
 .submenu li a {
     text-decoration: none;
-    transition: color 0.3s ease; 
+    transition: color 0.3s ease;
 }
 
 .fixed-top {
@@ -111,7 +111,7 @@ a {
 }
 
 .navbar-nav .nav-link {
-    transition: color 0.3s ease; 
+    transition: color 0.3s ease;
 }
 
 /* Efeito hover para os links da barra de navegação */
@@ -304,11 +304,56 @@ strong {
     margin-bottom: 5rem;
 }
 
+.mt-20 {
+    margin-top: 300px;
+    display: block;
+}
+
+.dark-section {
+    background-color: #333;
+    /* Cor de fundo escura */
+    color: #fff;
+    /* Cor do texto clara */
+    text-align: center;
+    border-radius: 8px;
+    padding: 20px;
+    
+}
+
+.dark-section h2 {
+    margin-top: 0;
+}
+
+.btn-font-size {
+    background-color: #25D366;
+    /* Cor do botão do WhatsApp */
+    color: #fff;
+    /* Cor do texto do botão */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    /* Remove a sublinha do link */
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.btn-font-size a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-font-size a:hover {
+    color: #fff;
+}
 
 #quemSomos {
     background-color: #13879E;
     padding: 40px;
     border-radius: 10px;
+
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
 
